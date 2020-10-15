@@ -120,6 +120,12 @@
 	transform: translateY(1rem);
 }
 
+.rKOYsc {
+	/*	border-radius is known for causing lag on elements with a lot of children
+		so we remove it from the Meeting Device Controller */
+	border-radius: 0;
+}
+
 /* Remove all Transitions & Animations */
 * {
 	-webkit-transition: none !important;
