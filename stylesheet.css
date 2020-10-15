@@ -126,6 +126,11 @@
 	border-radius: 0;
 }
 
+/* Meeting Device Controller > Button Containers (that have disabled children) */
+.rKOYsc > div > div[role="button"][aria-disabled="true"] {
+	display: none;
+}
+
 /* Remove all Transitions & Animations */
 * {
 	-webkit-transition: none !important;
