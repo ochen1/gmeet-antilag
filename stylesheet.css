@@ -1,0 +1,91 @@
+/* Name and Microphone Indicator Container */
+.lMHHZ.gtgjre.pZFrDd {
+	display: none !important;
+}
+
+/* Name and Microphone Indicator Container (when parent hovered) */
+.xsj2Ff.Zf0RDc.PoIECb.AwnI1b:hover .lMHHZ.gtgjre.pZFrDd {
+	display: flex !important;
+}
+
+
+/* Control Center */
+.rG0ybd {
+	display: none !important;
+}
+
+/* Control Center (when chat exists) */
+.mKBhCf.qwU8Me.RlceJe.kjZr4 ~ .rG0ybd {
+	display: flex !important;
+	transform: translateY(0);
+}
+
+/* Grid View (when chat exists) */
+.zWfAib.Z319Jd.__gmgv-btb-resize.__gmgv-rtb-resize.__gmgv-flip-self.__gmgv-vid-container.t4HJue.Qtgubc.__gmgv-bottombar-enabled {
+	bottom: 2px !important;
+}
+
+/* Toolbar > Time */
+.NzPR9b > .xfd0yd {
+	display: none !important;
+}
+
+/* Toolbar Wrapper > Toolbar Container > Featured Person */
+.Jrb8ue > .lvE3se > .e0UWKb.xGFNFf.ghOJBb {
+	display: none;
+}
+
+/* TODO: Fix not working */
+/* *Wrappers > User Wrapper > User Name */
+.kjtROb > .cIM7d > .H0YpEc.N1c98 > span.z1gyye.bGuvKd ~ .kjtROb {
+	display: none
+}
+
+/* Popup Modal > Whiteboard */
+.JAPqpe.K0NPx > .z80M1[aria-label^="Whiteboard"] {
+	display: none;
+}
+
+/* Popup Modal > Full Screen */
+.JAPqpe.K0NPx > .z80M1[aria-label^="Full screen"] {
+	display: none;
+}
+
+/* Popup Modal > Use a phone for audio */
+.JAPqpe.K0NPx > .z80M1[aria-label^="Use a phone for audio"] {
+	display: none;
+}
+
+/* Popup Modal > Report a problem */
+.JAPqpe.K0NPx > .z80M1[aria-label^="Report a problem"] {
+	display: none;
+}
+
+/* Popup Modal > Report abuse */
+.JAPqpe.K0NPx > .z80M1[aria-label^="Report abuse"] {
+	display: none;
+}
+
+/* Popup Modal > Troubleshooting and help */
+.JAPqpe.K0NPx > .z80M1[aria-label^="Troubleshooting and help"] {
+	display: none;
+}
+
+/* Meeting Device Wrapper > Container > Device Controls Container */
+.xsj2Ff.Zf0RDc.PoIECb.vLRPrf.AwnI1b > .P48BS > .rKOYsc {
+	zoom: 0.6;
+}
+
+.xsj2Ff.Zf0RDc.PoIECb.vLRPrf.AwnI1b:hover > .P48BS > .rKOYsc {
+	opacity: 0.4;
+	-moz-transform: scale(0.5);
+}
+
+/* Remove all Transitions & Animations */
+* {
+	-webkit-transition: none !important;
+	-moz-transition: none !important;
+	-o-transition: none !important;
+	transition: none !important;
+	animation: none !important;
+}
