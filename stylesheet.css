@@ -84,7 +84,8 @@
 
 /* Name Tags */
 .zWfAib .YUGmGb {
-	font-size: 0.5rem;
+	font-size: 0.8rem;
+	background: rgba(0, 0, 0, 0.8);
 }
 
 /* Microphone Disabled Indicator */
@@ -115,7 +116,8 @@
 /* Name Tag Container */
 .lMHHZ.gtgjre.pZFrDd {
 	position: absolute;
-	top: 0;
+	top: -100%;
+	transform: translateY(1rem);
 }
 
 /* Remove all Transitions & Animations */
