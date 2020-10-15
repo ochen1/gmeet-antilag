@@ -131,6 +131,11 @@
 	display: none;
 }
 
+/* Remove dark gradient overlay for camfeeds */
+.xsj2Ff:not(.vLRPrf) .pZFrDd {
+	background: none;
+}
+
 /* Remove all Transitions & Animations */
 * {
 	-webkit-transition: none !important;
