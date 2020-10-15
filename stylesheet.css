@@ -74,11 +74,11 @@
 /* Meeting Device Wrapper > Container > Device Controls Container */
 .xsj2Ff.Zf0RDc.PoIECb.vLRPrf.AwnI1b > .P48BS > .rKOYsc {
 	zoom: 0.6;
+	-moz-transform: scale(0.6);
 }
 
 .xsj2Ff.Zf0RDc.PoIECb.vLRPrf.AwnI1b:hover > .P48BS > .rKOYsc {
 	opacity: 0.4;
-	-moz-transform: scale(0.5);
 }
 
 /* Remove all Transitions & Animations */
