@@ -82,6 +82,32 @@
 	opacity: 0.4;
 }
 
+/* Name Tags */
+.zWfAib .YUGmGb {
+	font-size: 0.5rem;
+}
+
+/* Microphone Disabled Indicator */
+.JHK7jb.FTMc0c.UUpGkb {
+	display: none;
+}
+
+/* Name Tag (when mic disabled container is present) */
+.JHK7jb.FTMc0c.UUpGkb ~ .YUGmGb {
+	color: rgba(255, 0, 0, 0.8);
+}
+
+/* Talking Indicator */
+.JHK7jb.UUpGkb {
+	display: none;
+}
+
+/* Name Tag (when talking indicator is present) */
+.JHK7jb.UUpGkb ~ .YUGmGb {
+	color: rgba(0, 0, 255, 0.8);
+}
+
+
 /* Remove all Transitions & Animations */
 * {
 	-webkit-transition: none !important;
