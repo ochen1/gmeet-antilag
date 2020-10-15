@@ -126,7 +126,7 @@
 	border-radius: 0;
 }
 
-/* Meeting Device Controller > Button Containers (that have disabled children) */
+/* Meeting Device Controller > Button Containers > Disabled Button */
 .rKOYsc > div > div[role="button"][aria-disabled="true"] {
 	display: none;
 }
