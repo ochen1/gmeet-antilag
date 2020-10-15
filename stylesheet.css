@@ -107,6 +107,11 @@
 	color: rgba(0, 0, 255, 0.8);
 }
 
+/* Always show name tag */
+.xsj2Ff.Zf0RDc.PoIECb.AwnI1b .lMHHZ.gtgjre.pZFrDd {
+	display: flex !important;
+}
+
 
 /* Remove all Transitions & Animations */
 * {
