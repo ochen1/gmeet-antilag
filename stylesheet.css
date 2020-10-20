@@ -1,158 +1,232 @@
-@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oxygen&display=swap");
 
 /* Name and Microphone Indicator Container */
 .lMHHZ.gtgjre.pZFrDd {
-	display: none !important;
+    display: none !important;
 }
 
 /* Name and Microphone Indicator Container (when parent hovered) */
+/* TODO */
 .xsj2Ff.Zf0RDc.PoIECb.AwnI1b:hover .lMHHZ.gtgjre.pZFrDd {
-	display: flex !important;
+    display: flex !important;
 }
-
 
 /* Control Center */
 .rG0ybd {
-	display: none !important;
+    display: none !important;
+    background-color: rgba(0, 0, 0, 0.4);
 }
 
 /* Control Center (when chat exists) */
 .mKBhCf.qwU8Me.RlceJe.kjZr4 ~ .rG0ybd {
-	display: flex !important;
-	transform: translateY(0);
+    display: flex !important;
+    transform: translateY(0);
 }
 
 /* Grid View (when chat exists) */
-.zWfAib.Z319Jd.__gmgv-btb-resize.__gmgv-rtb-resize.__gmgv-flip-self.__gmgv-vid-container.t4HJue.Qtgubc.__gmgv-bottombar-enabled {
-	bottom: 2px !important;
+.mKBhCf.qwU8Me.RlceJe ~ .loWbp.xYDeBf > .zWfAib.Z319Jd.Qtgubc.__gmgv-vid-container {
+	bottom: 90px !important;
 }
 
 /* Toolbar > Time */
 .NzPR9b > .xfd0yd {
-	display: none !important;
+    display: none !important;
 }
 
 /* Toolbar Wrapper > Toolbar Container > Featured Person */
 .Jrb8ue > .lvE3se > .e0UWKb.xGFNFf.ghOJBb {
-	display: none;
+    display: none;
 }
 
 /* TODO: Fix not working */
 /* *Wrappers > User Wrapper > User Name */
 .kjtROb > .cIM7d > .H0YpEc.N1c98 > span.z1gyye.bGuvKd ~ .kjtROb {
-	display: none
+    display: none;
 }
 
 /* Popup Modal > Whiteboard */
 .JAPqpe.K0NPx > .z80M1[aria-label^="Whiteboard"] {
-	display: none;
+    display: none;
 }
 
 /* Popup Modal > Full Screen */
 .JAPqpe.K0NPx > .z80M1[aria-label^="Full screen"] {
-	display: none;
+    display: none;
 }
 
 /* Popup Modal > Use a phone for audio */
 .JAPqpe.K0NPx > .z80M1[aria-label^="Use a phone for audio"] {
-	display: none;
+    display: none;
 }
 
 /* Popup Modal > Report a problem */
 .JAPqpe.K0NPx > .z80M1[aria-label^="Report a problem"] {
-	display: none;
+    display: none;
 }
 
 /* Popup Modal > Report abuse */
 .JAPqpe.K0NPx > .z80M1[aria-label^="Report abuse"] {
-	display: none;
+    display: none;
 }
 
 /* Popup Modal > Troubleshooting and help */
 .JAPqpe.K0NPx > .z80M1[aria-label^="Troubleshooting and help"] {
-	display: none;
+    display: none;
 }
 
 /* Meeting Device Wrapper > Container > Device Controls Container */
 .xsj2Ff.Zf0RDc.PoIECb.AwnI1b > .P48BS > .rKOYsc {
-	zoom: 0.6;
-	-moz-transform: scale(0.6);
+    display: none;
+    zoom: 0.6;
+    -moz-transform: scale(0.6);
 }
 
 /* Meeting Device Wrapper > Container > Device Controls Container (when the wrapper is hovered) */
 .xsj2Ff.Zf0RDc.PoIECb.AwnI1b:hover > .P48BS > .rKOYsc {
-	opacity: 0.4;
+    display: flex; /* More reliable using :hover effect as it does not rely on JS */
+    background: rgba(0, 255, 0, 0.4);
 }
 
 /* Name Tags */
 .zWfAib .YUGmGb {
-	font-size: 0.6rem;
-	font-family: 'Share Tech Mono', monospace;
-	background: rgba(0, 0, 0, 0.8);
+    font-size: 0.6rem;
+    font-family: "Share Tech Mono", monospace;
+    background: rgba(0, 0, 0, 0.8);
 }
 
 /* Microphone Disabled Indicator */
 .JHK7jb.FTMc0c.UUpGkb {
-	display: none;
+    display: none;
 }
 
 /* Name Tag (when mic disabled container is present) */
 .JHK7jb.FTMc0c.UUpGkb ~ .YUGmGb {
-	color: rgba(255, 0, 0, 0.8);
+    color: rgba(255, 0, 0, 0.8);
 }
 
 /* Talking Indicator */
 .JHK7jb.UUpGkb {
-	display: none;
+    display: none;
 }
 
 /* Name Tag (when talking indicator is present) */
 .JHK7jb.UUpGkb ~ .YUGmGb {
-	color: rgba(0, 0, 255, 0.8);
+    color: rgba(0, 0, 255, 0.8);
 }
 
 /* Always show name tag */
 .xsj2Ff.Zf0RDc.PoIECb.AwnI1b .lMHHZ.gtgjre.pZFrDd {
-	display: flex !important;
+    display: flex !important;
 }
 
 /* Name Tag Container */
 .lMHHZ.gtgjre.pZFrDd {
-	position: absolute;
-	top: -100%;
-	transform: translateY(0.5em);
+    height: 100%;
 }
 
 /* Name Tag Name */
 .epqixc {
-	margin-left: 0.5ch;
+    position: absolute;
+    top: 0;
+    margin-left: 0.5ch;
 }
 
 .rKOYsc {
-	/*	border-radius is known for causing lag on elements with a lot of children
+    /*	border-radius is known for causing lag on elements with a lot of children
 		so we remove it from the Meeting Device Controller */
-	border-radius: 0;
+    border-radius: 0;
 }
 
 /* Meeting Device Controller > Button Containers > Disabled Button */
 .rKOYsc > div > div[role="button"][aria-disabled="true"] {
-	display: none;
+    display: none;
 }
 
 /* Remove dark gradient overlay for camfeeds */
 .xsj2Ff:not(.vLRPrf) .pZFrDd {
-	background: none;
+    background: none;
 }
 
+/* Meeting Device Wrappers */
 .xsj2Ff.Zf0RDc.PoIECb.AwnI1b {
-	filter: saturate(150%);
+    filter: saturate(150%);
+}
+
+/* All content in chat */
+.vvTMTb * {
+    font-family: "Oxygen", sans-serif;
+}
+
+/* Chat Container */
+.vvTMTb {
+    background: #2a2a2a;
+}
+.z38b6 {
+    border-color: #9a9a9a;
+}
+
+/* Chat Messages - Author */
+.YTbUzc {
+    color: #cacaca !important;
+}
+
+/* Chat Messages - Time */
+.MuzmKe {
+    color: #6a6a6a !important;
+}
+
+/* Chat Messages - Text */
+.oIy2qc {
+    color: #eaeaea !important;
+}
+
+/* Is Presenting... */
+.H0YpEc.N1c98 {
+    display: none;
+}
+
+/* Nav Header Buttons */
+.Bx7THd.PBWx0c.Uy7Qke.XN1AMe,
+.ThdJC.kaAt2.c0XF8e.s7PhZd.sVoT0c {
+    background: #bababa;
+}
+
+/* Chat Text Area */
+.XnKlKd textarea.tL9Q4c {
+    color: white;
+}
+
+
+/* Meeting Devices Video Container (not presentation) */
+.koV58.Zi94Db.S7urwe {
+    align-items: center;
+}
+.p2hjYe.TPpRNe {
+    width: 100% !important;
+    position: static !important;
+}
+video.Gv1mTb-aTv5jf {
+    width: 100% !important;
+    position: static !important;
+}
+/* Fix name tag displacement */
+.epqixc {
+    position: static;
+    align-self: flex-end;
+}
+
+/* Meeting Device Profile Pictures */
+.zWfAib .uSECwd {
+    width: 60%;
+    max-width: unset;
 }
 
 /* Remove all Transitions & Animations */
 * {
-	-webkit-transition: none !important;
-	-moz-transition: none !important;
-	-o-transition: none !important;
-	transition: none !important;
-	animation: none !important;
+    -webkit-transition: none !important;
+    -moz-transition: none !important;
+    -o-transition: none !important;
+    transition: none !important;
+    animation: none !important;
 }
