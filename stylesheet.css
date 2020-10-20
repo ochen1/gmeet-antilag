@@ -127,8 +127,6 @@
 
 /* Name Tag Name */
 .epqixc {
-    position: absolute;
-    top: 0;
     margin-left: 0.5ch;
 }
 
@@ -211,7 +209,7 @@ video.Gv1mTb-aTv5jf {
     width: 100% !important;
 }
 /* Fix name tag displacement */
-.epqixc {
+.lMHHZ {
     align-self: flex-end;
 }
 
